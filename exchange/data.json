@@ -1,5 +1,15 @@
 [
     {
+        "title": "Windows.EventLogs.SysmonProcessEnriched.yaml",
+        "author": "zaneGittins",
+        "description": "Gather sysmon process creation events from the sysmon operational event log. Enrich with authenticode signature of image and call chain.\nCaches authenticode signature by the hash of the image for ClearCacheSeconds (default, 1hr).\nPrerequisites: Sysmon, and the process tracker.\n",
+        "link": "/exchange/artifacts/pages/windows.eventlogs.sysmonprocessenriched",
+        "tags": [],
+        "author_link": "https://github.com/zaneGittins",
+        "author_avatar": "https://avatars.githubusercontent.com/u/22203776?v=4",
+        "date": "2024-06-28"
+    },
+    {
         "title": "Linux.Detection.BruteForce",
         "author": "RCarras",
         "description": "\nLinux detection brute force module.\nThis code is based on https://github.com/RCarras/linforce/blob/main/linforce.sh\n   \nThis module uses btmp/wtmp files to search for possible brute force attacks comparing:",
