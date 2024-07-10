@@ -10,6 +10,36 @@
         "date": "2024-07-10"
     },
     {
+        "title": "Generic.Events.TrackNetworkConnections",
+        "author": "sec-hbaer",
+        "description": "This artifact is meant for monitoring network connections on clients.\nIt periodically queries the existing network connections and emits lines for differences (new connections and missing/removed ones).\nNetwork connections are tracked and compared based on following elements: process id, layer 3 protocol, layer 4 protocol, local address used, local port used, remote address used, remote port used.",
+        "link": "/exchange/artifacts/pages/generic.events.tracknetworkconnections",
+        "tags": [],
+        "author_link": "https://github.com/sec-hbaer",
+        "author_avatar": "https://avatars.githubusercontent.com/u/150132280?v=4",
+        "date": "2024-07-10"
+    },
+    {
+        "title": "Server.Alerts.TrackNetworkConnections",
+        "author": "sec-hbaer",
+        "description": "This artifact alerts on network connections tracked by Velociraptor on clients.\nRequires the client_event artifact 'Generic.Events.TrackNetworkConnections' to be enabled.",
+        "link": "/exchange/artifacts/pages/server.alerts.tracknetworkconnections",
+        "tags": [],
+        "author_link": "https://github.com/sec-hbaer",
+        "author_avatar": "https://avatars.githubusercontent.com/u/150132280?v=4",
+        "date": "2024-07-10"
+    },
+    {
+        "title": "Windows.Ssh.AuthorizedKeys",
+        "author": "j91321",
+        "description": "Find and parse ssh authorized keys files on Windows running OpenSSH service.\n",
+        "link": "/exchange/artifacts/pages/windows.ssh.authorizedkeys",
+        "tags": [],
+        "author_link": "https://github.com/j91321",
+        "author_avatar": "https://avatars.githubusercontent.com/u/10012872?v=4",
+        "date": "2024-07-10"
+    },
+    {
         "title": "Windows.EventLogs.SysmonProcessEnriched.yaml",
         "author": "zaneGittins",
         "description": "Gather sysmon process creation events from the sysmon operational event log. Enrich with authenticode signature of image and call chain.\nCaches authenticode signature by the hash of the image for ClearCacheSeconds (default, 1hr).\nPrerequisites: Sysmon, and the process tracker.\n",
