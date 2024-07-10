@@ -30,6 +30,16 @@
         "date": "2024-07-10"
     },
     {
+        "title": "Windows.EventLogs.DeepBlueCLI",
+        "author": "AnthoLaMalice",
+        "description": "DeepBlueCLI - a PowerShell Module for Threat Hunting via Windows Event Logs",
+        "link": "/exchange/artifacts/pages/windows.deepbluecli",
+        "tags": [],
+        "author_link": "https://github.com/AnthoLaMalice",
+        "author_avatar": "https://avatars.githubusercontent.com/u/78861013?v=4",
+        "date": "2024-07-10"
+    },
+    {
         "title": "Windows.Ssh.AuthorizedKeys",
         "author": "j91321",
         "description": "Find and parse ssh authorized keys files on Windows running OpenSSH service.\n",
