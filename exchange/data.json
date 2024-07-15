@@ -1,5 +1,15 @@
 [
     {
+        "title": "Linux.Applications.Docker.Ps",
+        "author": "j91321",
+        "description": "Get Docker containers by connecting to the docker.socket. Same as running `docker ps`",
+        "link": "/exchange/artifacts/pages/linux.applications.docker.ps",
+        "tags": [],
+        "author_link": "https://github.com/j91321",
+        "author_avatar": "https://avatars.githubusercontent.com/u/10012872?v=4",
+        "date": "2024-07-15"
+    },
+    {
         "title": "Generic.Apache.AccessLogs",
         "author": "Krishna-23",
         "description": "Parses Apache access logs to extract detailed request information.\n",
